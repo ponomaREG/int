@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Umiter</string>
+    <string name="home">Home</string>
+    <string name="graph">Graph</string>
+    <string name="settings">Settings</string>
+
+    <string name="home_fragment">Добро пожавловать!</string>
+    <string name="graph_fragment">Graph</string>
+    <string name="settings_fragment">Settings</string>
+    <string name="email">Почта:</string>
+    <string name="password">Пароль:</string>
+    <string name="login">Логин:</string>
+    <string name="userName">Имя:</string>
+    <string name="saveButton">Сохранить</string>
+</resources>

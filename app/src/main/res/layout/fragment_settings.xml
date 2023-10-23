@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="18dp"
+    tools:context=".SettingsFragment">
+
+    <LinearLayout
+        android:id="@+id/fieldSettings1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- Label -->
+        <TextView
+            android:text="@string/userName"
+            style="@style/CategoryStyle" />
+
+        <EditText
+            android:id="@+id/editTextPersonName"
+            style="@style/EditorTextSettingsStyle"
+            android:inputType="text" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fieldSettings2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- Label -->
+        <TextView
+            android:text="@string/login"
+            style="@style/CategoryStyle" />
+
+        <EditText
+            android:id="@+id/editTextLogin"
+            style="@style/EditorTextSettingsStyle"
+            android:inputType="text" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fieldSettings3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- Label -->
+        <TextView
+            android:text="@string/password"
+            style="@style/CategoryStyle"
+
+             />
+
+        <EditText
+            android:id="@+id/editTextPassword"
+            style="@style/EditorTextSettingsStyle"
+            android:inputType="textPassword"
+            android:autofillHints="password" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fieldSettings4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- Label -->
+        <TextView
+            android:text="@string/email"
+            style="@style/CategoryStyle" />
+
+        <EditText
+            android:id="@+id/editTextEmailName"
+            style="@style/EditorTextSettingsStyle"
+            android:inputType = "textEmailAddress"
+            android:autofillHints="emailAddress"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="150dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="14dp"
+        android:text="@string/saveButton" />
+
+</LinearLayout>
